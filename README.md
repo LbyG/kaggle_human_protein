@@ -1,42 +1,26 @@
-# kaggle_human_protein_baseline
-Human Protein Atlas Image Classification baseline:0.461
-
-
+# kaggle_human_protein_code
+Human Protein Atlas Image Classification
+Single Model: public(0.590) private(0.502)
+Ensemble Model: public(0.620) private(0.536)
+note: my code need run in jupyter notebook
 
 Links:
-    
-- [My Blog](http://www.spytensor.com/)
-- [My GitHub](https://github.com/spytensor)
 - [Human Protein Atlas Image Classification](https://www.kaggle.com/c/human-protein-atlas-image-classification)
-- [Pytorch Baseline 0.461](https://www.kaggle.com/c/human-protein-atlas-image-classification/discussion/72812)
+- [Pytorch Baseline 0.461(public)](https://www.kaggle.com/c/human-protein-atlas-image-classification/discussion/72812)
 
-Baseline Score: `0.461`
+# 1. Make_KFold.ipynb
 
-# 1. requirements
+`kfold train data
 
-`pytorch-0.4.0` `pretrainedmodels-0.7.4` `imagaug`
+# 2. main.ipynb
 
-# 2. usage
+`train model
 
-`step1: change config.py:train_data and test_data path for your self `
+# 3. ensemble.ipynb
 
-`step2: python main.py`
+`ensemble model by stacking
 
-# 3. saving models
+# 4. NOTES
 
-**I save three models from train process: best-loss,best-f1,final-epoch**
-
-# 4. for help
-
-## if someone have any questions and suggestions,please tell me !!!
-
-Email: zhuchaojie@buaa.edu.cn
-
-# 5. results
-
-Because I have not enough time to train my model,after 34 epochs I stopped it and made one submission,get score : **0.461**
-
-# 6. NOTES
-
-Because some unknown problems,the result may different but around 0.45
+my code need run in jupyter notebook
 # kaggle_human_protein
