@@ -39,3 +39,4 @@ Because I have not enough time to train my model,after 34 epochs I stopped it an
 # 6. NOTES
 
 Because some unknown problems,the result may different but around 0.45
+# kaggle_human_protein

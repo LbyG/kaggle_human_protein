@@ -15,3 +15,13 @@ def get_net():
                 nn.Linear(1024, config.num_classes),
             )
     return model
+
+def get_net_channel3():
+    model = bninception(pretrained="imagenet")
+    model.global_pool = nn.AdaptiveAvgPool2d(1)
+    model.last_linear = nn.Sequential(
+                nn.BatchNorm1d(1024),
+                nn.Dropout(0.5),
+                nn.Linear(1024, config.num_classes),
+            )
+    return model
