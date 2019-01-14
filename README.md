@@ -1,7 +1,7 @@
 # kaggle_human_protein_code
-`Human Protein Atlas Image Classification
-`Single Model: public(0.590) private(0.502)
-`Ensemble Model: public(0.620) private(0.536)
+# Human Protein Atlas Image Classification
+# Single Model: public(0.590) private(0.502)
+# Ensemble Model: public(0.620) private(0.536)
 
 Links:
 - [Human Protein Atlas Image Classification](https://www.kaggle.com/c/human-protein-atlas-image-classification)
