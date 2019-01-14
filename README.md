@@ -22,4 +22,3 @@ ensemble model by stacking
 # 4. NOTES
 
 my code need run in jupyter notebook
-# kaggle_human_protein
